@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
+    <title>Emotes Converter</title>
+    <style>
+        body {
+            display: grid;
+            place-items: center;
+            background-color: #0e1012;
+            color: #f4f4f4;
+            font-size: 18pt;
+            font-family: 'Inconsolata', monospace;
+        }
+
+        /* Reset default style */
+        textarea {
+            margin: 0;
+            padding: 0;
+            background: none;
+            border: none;
+            border-radius: 0;
+            outline: none;
+            appearance: none;
+        }
+
+        textarea {
+            width: 90%;
+            min-height: 200px;
+            border-radius: 5px;
+            color: #f4f4f4;
+            background: #0e0e0e;
+            padding: 15px;
+            font-size: 20px;
+            font-weight: 400;
+            font-family: inherit;
+            resize: vertical;
+        }
+
+        output {
+            width: 90%;
+        }
+    </style>
+</head>
+
+<body>
+    <br>
+    <img src="./pokedex.png" alt="" width="180px">
+    <br>
+    <textarea name="emotes" id="" cols="30" rows="10"></textarea>
+    <br>
+    <output></output>
+    <script src="./script.js"></script>
+</body>
+
+</html>
